@@ -17,7 +17,13 @@ public class Main {
         System.out.println("instanceCount (obj2 vorher): " + obj2.getInstanceCount()); // Ausgabe: instanceCount (obj2 vorher): 1
         obj2.incrementInstanceCount();
         System.out.println("instanceCount (obj2 nachher): " + obj2.getInstanceCount()); // Ausgabe: instanceCount (obj2 nachher): 2
-    }
+
+        System.out.println("Aktueller totalCount: " + Count.getTotalCount()); // Ausgabe: Aktueller totalCount: 4
+        System.out.println("Aktueller instanceCount (obj1): " + obj1.getInstanceCount()); // Ausgabe: Aktueller instanceCount (obj1): 2
+        System.out.println("Aktueller instanceCount (obj2): " + obj2.getInstanceCount()); // Ausgabe: Aktueller instanceCount (obj2): 2
 
 
     }
+
+
+}
