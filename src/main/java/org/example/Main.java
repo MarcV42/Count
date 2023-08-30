@@ -22,7 +22,20 @@ public class Main {
         System.out.println("Aktueller instanceCount (obj1): " + obj1.getInstanceCount()); // Ausgabe: Aktueller instanceCount (obj1): 2
         System.out.println("Aktueller instanceCount (obj2): " + obj2.getInstanceCount()); // Ausgabe: Aktueller instanceCount (obj2): 2
 
+        int num1 = 80;
+        int num2 = 20;
 
+        int sum = Calculator.add(num1, num2);
+        System.out.println("Sum: " + sum); // Ausgabe: Sum: 30
+
+        int sum_minus = Calculator.subtra(num1, num2);
+        System.out.println("Sum: " + sum_minus); // Ausgabe: Sum: 30
+
+        int sum_multi = Calculator.multipl(num1, num2);
+        System.out.println("Sum: " + sum_multi); // Ausgabe: Sum: 30
+
+        int sum_div = Calculator.division(num1, num2);
+        System.out.println("Sum: " + sum_div); // Ausgabe: Sum: 30
     }
 
 
